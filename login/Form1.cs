@@ -5,6 +5,7 @@ namespace login
         public Form1()
         {
             InitializeComponent();
+            Data.Connection.OpenConnection();
         }
     }
 }
